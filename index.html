@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta msg="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlineMeal.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- bcz sticky nav needs height, without header it has the whole page -->
+    <!-- <header> -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="OnlineMeal.com">
+            </div>
+            <ul class="navigation">
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#services-container">Services</a></li>
+                <li class="item"><a href="#client-section">Our Clients</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    <!-- </header> -->
+    <section id="home">
+        <h1 class="h-primary">Welcome to OnlineMeal</h1>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae blanditiis illum
+            perspiciatis</p>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div class="services">
+            <div class="box">
+                <img src="img/1.png" alt="image">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dolor esse sed
+                    pariatur ducimus aliquam
+                    voluptatem. Dolor mollitia sunt nam pariatur rerum repellat, deserunt eveniet odio quod quidem, enim
+                    dolorem!</p>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="image">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dolor esse sed
+                    pariatur ducimus aliquam
+                    voluptatem. Dolor mollitia sunt nam pariatur rerum repellat, deserunt eveniet odio quod quidem, enim
+                    dolorem!</p>
+            </div>
+            <div class="box">
+                <img src="img/3.png" alt="image">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dolor esse sed
+                    pariatur ducimus aliquam
+                    voluptatem. Dolor mollitia sunt nam pariatur rerum repellat, deserunt eveniet odio quod quidem, enim
+                    dolorem!</p>
+            </div>
+          </div>  
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client"><img src="img/logo1.png" alt="Our Client"></div>
+            <div class="client"><img src="img/logo2.png" alt="Our Client"></div>
+            <div class="client"><img src="img/logo3.png" alt="Our Client"></div>
+            <div class="client"><img src="img/logo4.png" alt="Our Client"></div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="center h-primary">Contact US</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="number" id="phone" placeholder="Enter your Phone">
+                </div>
+                <div class="form-group">
+                    <label for="msg">Message:</label>
+                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">Copyright &copy; www.OnlineMeal.com. All rights reserved</div>
+    </footer>
+    
+</body>
+
+</html>

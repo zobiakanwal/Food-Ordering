@@ -1,0 +1,24 @@
+
+.services{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.services .box{
+    width: 70%;
+}
+.client{
+    padding:3.53rem;
+}
+#contact-box form{
+    width: 70%;
+}
+#home{
+    height: 330px;
+    padding: 2.5rem 4.5rem;
+}
+#home::before{
+    height: 400px;
+}
+#services-container{
+    position: relative;
+}
